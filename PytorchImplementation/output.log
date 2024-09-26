@@ -1,0 +1,106 @@
+[W 04:21:42.105 NotebookApp] Error loading server extension jupyter_nbextensions_configurator
+    Traceback (most recent call last):
+      File "/opt/hpc/anaconda3/envs/jupyterhub/lib/python3.9/site-packages/notebook/notebookapp.py", line 2047, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/opt/hpc/anaconda3/envs/jupyterhub/lib/python3.9/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named 'jupyter_nbextensions_configurator'
+[W 04:21:42.845 NotebookApp] Loading JupyterLab as a classic notebook (v6) extension.
+[W 2024-09-19 04:21:42.848 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-09-19 04:21:42.848 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-09-19 04:21:42.848 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-09-19 04:21:42.851 LabApp] JupyterLab extension loaded from /opt/hpc/anaconda3/envs/jupyterhub/lib/python3.9/site-packages/jupyterlab
+[I 2024-09-19 04:21:42.851 LabApp] JupyterLab application directory is /opt/hpc/anaconda3/envs/jupyterhub/share/jupyter/lab
+[I 04:21:42.855 NotebookApp] Serving notebooks from local directory: /work/21010294/HandGesture
+[I 04:21:42.855 NotebookApp] Jupyter Notebook 6.5.4 is running at:
+[I 04:21:42.855 NotebookApp] http://localhost:8880/?token=6666c3d9dcb0927d84483bcb9f0543e85b4e7db6c5dea048
+[I 04:21:42.855 NotebookApp]  or http://127.0.0.1:8880/?token=6666c3d9dcb0927d84483bcb9f0543e85b4e7db6c5dea048
+[I 04:21:42.856 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 04:21:42.859 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/21010294/.local/share/jupyter/runtime/nbserver-414654-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8880/?token=6666c3d9dcb0927d84483bcb9f0543e85b4e7db6c5dea048
+     or http://127.0.0.1:8880/?token=6666c3d9dcb0927d84483bcb9f0543e85b4e7db6c5dea048
+[I 04:24:52.480 NotebookApp] 302 GET / (::1) 0.490000ms
+[I 04:24:52.595 NotebookApp] 302 GET /tree? (::1) 0.640000ms
+[I 04:24:55.255 NotebookApp] 302 GET / (::1) 0.260000ms
+[I 04:24:55.373 NotebookApp] 302 GET /tree? (::1) 0.360000ms
+[I 04:25:03.066 NotebookApp] 302 GET / (::1) 0.250000ms
+[I 04:25:03.187 NotebookApp] 302 GET /tree? (::1) 0.320000ms
+[I 04:25:03.573 NotebookApp] Kernel started: d659f7a0-6ae0-46b7-9c21-46f874c57b5d, name: vsrenv
+[IPKernelApp] ERROR | Exception in control handler:
+Traceback (most recent call last):
+  File "/home/21010294/VSR/VSREnv/lib/python3.9/site-packages/ipykernel/kernelbase.py", line 349, in process_control
+    await result
+  File "/home/21010294/VSR/VSREnv/lib/python3.9/site-packages/ipykernel/kernelbase.py", line 1027, in debug_request
+    reply_content = await reply_content
+  File "/home/21010294/VSR/VSREnv/lib/python3.9/site-packages/ipykernel/ipkernel.py", line 511, in do_debug_request
+    return await self.debugger.process_request(msg)
+  File "/home/21010294/VSR/VSREnv/lib/python3.9/site-packages/ipykernel/debugger.py", line 739, in process_request
+    self.stop()
+  File "/home/21010294/VSR/VSREnv/lib/python3.9/site-packages/ipykernel/debugger.py", line 445, in stop
+    self.debugpy_client.disconnect_tcp_socket()
+  File "/home/21010294/VSR/VSREnv/lib/python3.9/site-packages/ipykernel/debugger.py", line 280, in disconnect_tcp_socket
+    self.debugpy_stream.socket.disconnect(self._get_endpoint())
+  File "zmq/backend/cython/socket.pyx", line 664, in zmq.backend.cython.socket.Socket.disconnect
+zmq.error.ZMQError: No such file or directory
+[IPKernelApp] ERROR | Exception in control handler:
+Traceback (most recent call last):
+  File "/home/21010294/VSR/VSREnv/lib/python3.9/site-packages/ipykernel/kernelbase.py", line 349, in process_control
+    await result
+  File "/home/21010294/VSR/VSREnv/lib/python3.9/site-packages/ipykernel/kernelbase.py", line 1027, in debug_request
+    reply_content = await reply_content
+  File "/home/21010294/VSR/VSREnv/lib/python3.9/site-packages/ipykernel/ipkernel.py", line 511, in do_debug_request
+    return await self.debugger.process_request(msg)
+  File "/home/21010294/VSR/VSREnv/lib/python3.9/site-packages/ipykernel/debugger.py", line 739, in process_request
+    self.stop()
+  File "/home/21010294/VSR/VSREnv/lib/python3.9/site-packages/ipykernel/debugger.py", line 445, in stop
+    self.debugpy_client.disconnect_tcp_socket()
+  File "/home/21010294/VSR/VSREnv/lib/python3.9/site-packages/ipykernel/debugger.py", line 280, in disconnect_tcp_socket
+    self.debugpy_stream.socket.disconnect(self._get_endpoint())
+  File "zmq/backend/cython/socket.pyx", line 664, in zmq.backend.cython.socket.Socket.disconnect
+zmq.error.ZMQError: No such file or directory
+[I 07:23:58.668 NotebookApp] Kernel restarted: d659f7a0-6ae0-46b7-9c21-46f874c57b5d
+[I 07:23:58.686 NotebookApp] Starting buffering for d659f7a0-6ae0-46b7-9c21-46f874c57b5d:f7519780-9408-4109-b193-0d56cab536b9
+[I 07:23:58.739 NotebookApp] Restoring connection for d659f7a0-6ae0-46b7-9c21-46f874c57b5d:f7519780-9408-4109-b193-0d56cab536b9
+[I 07:24:03.335 NotebookApp] Kernel restarted: d659f7a0-6ae0-46b7-9c21-46f874c57b5d
+[I 07:24:03.349 NotebookApp] Starting buffering for d659f7a0-6ae0-46b7-9c21-46f874c57b5d:f7519780-9408-4109-b193-0d56cab536b9
+[I 07:24:03.370 NotebookApp] Restoring connection for d659f7a0-6ae0-46b7-9c21-46f874c57b5d:f7519780-9408-4109-b193-0d56cab536b9
+[I 07:24:04.272 NotebookApp] Kernel restarted: d659f7a0-6ae0-46b7-9c21-46f874c57b5d
+[I 07:24:04.285 NotebookApp] Starting buffering for d659f7a0-6ae0-46b7-9c21-46f874c57b5d:f7519780-9408-4109-b193-0d56cab536b9
+[I 07:24:04.308 NotebookApp] Restoring connection for d659f7a0-6ae0-46b7-9c21-46f874c57b5d:f7519780-9408-4109-b193-0d56cab536b9
+[I 07:27:50.860 NotebookApp] 302 GET / (::1) 0.280000ms
+[I 07:27:51.403 NotebookApp] 302 GET /tree? (::1) 0.360000ms
+[I 08:05:54.422 NotebookApp] Kernel interrupted: d659f7a0-6ae0-46b7-9c21-46f874c57b5d
+[I 08:06:41.005 NotebookApp] Kernel interrupted: d659f7a0-6ae0-46b7-9c21-46f874c57b5d
+[I 08:20:45.125 NotebookApp] Kernel interrupted: d659f7a0-6ae0-46b7-9c21-46f874c57b5d
+[I 08:35:37.168 NotebookApp] Starting buffering for d659f7a0-6ae0-46b7-9c21-46f874c57b5d:f7519780-9408-4109-b193-0d56cab536b9
+[I 08:36:04.601 NotebookApp] interrupted
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                       
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+Serving notebooks from local directory: /work/21010294/HandGesture
+1 active kernel
+Jupyter Notebook 6.5.4 is running at:
+http://localhost:8880/?token=6666c3d9dcb0927d84483bcb9f0543e85b4e7db6c5dea048
+ or http://127.0.0.1:8880/?token=6666c3d9dcb0927d84483bcb9f0543e85b4e7db6c5dea048
+Shutdown this notebook server (y/[n])? [C 08:36:04.945 NotebookApp] received signal 2, stopping
+[I 08:36:04.946 NotebookApp] Shutting down 1 kernel
+[I 08:36:04.947 NotebookApp] Kernel shutdown: d659f7a0-6ae0-46b7-9c21-46f874c57b5d
+[I 08:36:07.761 NotebookApp] Shutting down 0 terminals
+resuming operation...

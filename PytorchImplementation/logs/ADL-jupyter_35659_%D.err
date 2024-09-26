@@ -1,0 +1,30 @@
+[W 17:57:17.064 NotebookApp] Error loading server extension jupyter_nbextensions_configurator
+    Traceback (most recent call last):
+      File "/opt/hpc/anaconda3/envs/jupyterhub/lib/python3.9/site-packages/notebook/notebookapp.py", line 2047, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/opt/hpc/anaconda3/envs/jupyterhub/lib/python3.9/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named 'jupyter_nbextensions_configurator'
+[W 17:57:17.493 NotebookApp] Loading JupyterLab as a classic notebook (v6) extension.
+[W 2024-09-22 17:57:17.495 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-09-22 17:57:17.495 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-09-22 17:57:17.495 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-09-22 17:57:17.498 LabApp] JupyterLab extension loaded from /opt/hpc/anaconda3/envs/jupyterhub/lib/python3.9/site-packages/jupyterlab
+[I 2024-09-22 17:57:17.498 LabApp] JupyterLab application directory is /opt/hpc/anaconda3/envs/jupyterhub/share/jupyter/lab
+[I 17:57:17.501 NotebookApp] The port 8880 is already in use, trying another port.
+[I 17:57:17.502 NotebookApp] Serving notebooks from local directory: /work/21010294/HandGesture
+[I 17:57:17.502 NotebookApp] Jupyter Notebook 6.5.4 is running at:
+[I 17:57:17.502 NotebookApp] http://localhost:8881/?token=056431ad905121362c0b875dadde563277dbe1087197e054
+[I 17:57:17.502 NotebookApp]  or http://127.0.0.1:8881/?token=056431ad905121362c0b875dadde563277dbe1087197e054
+[I 17:57:17.502 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 17:57:17.506 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/21010294/.local/share/jupyter/runtime/nbserver-229545-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8881/?token=056431ad905121362c0b875dadde563277dbe1087197e054
+     or http://127.0.0.1:8881/?token=056431ad905121362c0b875dadde563277dbe1087197e054
+slurmstepd: error: *** JOB 35659 ON hpc08 CANCELLED AT 2024-09-22T17:57:27 ***

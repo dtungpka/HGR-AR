@@ -1,0 +1,161 @@
+Currently Loaded Modulefiles:
+ 1) cuda/11.5.2(default)   2) python/jupyterhub  
+
+Key:
+(symbolic-version)  
+['', '/opt/hpc/anaconda3/envs/jupyterhub/lib/python39.zip', '/opt/hpc/anaconda3/envs/jupyterhub/lib/python3.9', '/opt/hpc/anaconda3/envs/jupyterhub/lib/python3.9/lib-dynload', '/home/21010294/VSR/VSREnv/lib/python3.9/site-packages', '/home/21010294/VSR/Packages/mmediting', '/home/21010294/VSR/Repositories/mmediting']
+/home/21010294/VSR/VSREnv/bin/python
+Python 3.9.16
+1.12.1+cu113
+11.3
+Cuda available, version: 8302
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+             35653       gpu HG-TRAIN 21010294  R       0:02      1 hpc23
+Using device: cuda
+Epoch 1/20, Validation Loss: 0.1449, Validation Accuracy: 34.58%
+Epoch 2/20, Validation Loss: 0.1166, Validation Accuracy: 40.02%
+Epoch 3/20, Validation Loss: 0.2545, Validation Accuracy: 33.88%
+Epoch 4/20, Validation Loss: 0.3323, Validation Accuracy: 31.10%
+Epoch 5/20, Validation Loss: 0.2618, Validation Accuracy: 31.59%
+Epoch 6/20, Validation Loss: 0.3034, Validation Accuracy: 35.05%
+Epoch 7/20, Validation Loss: 0.3136, Validation Accuracy: 32.76%
+Epoch 8/20, Validation Loss: 0.3332, Validation Accuracy: 32.69%
+Epoch 9/20, Validation Loss: 0.2774, Validation Accuracy: 32.92%
+Epoch 10/20, Validation Loss: 0.3221, Validation Accuracy: 31.41%
+Epoch 11/20, Validation Loss: 0.3047, Validation Accuracy: 31.77%
+Epoch 12/20, Validation Loss: 0.2948, Validation Accuracy: 32.21%
+Epoch 13/20, Validation Loss: 0.3088, Validation Accuracy: 32.11%
+Epoch 14/20, Validation Loss: 0.3079, Validation Accuracy: 32.27%
+Epoch 15/20, Validation Loss: 0.3191, Validation Accuracy: 32.07%
+Epoch 16/20, Validation Loss: 0.3185, Validation Accuracy: 32.89%
+Epoch 17/20, Validation Loss: 0.2859, Validation Accuracy: 31.83%
+Epoch 18/20, Validation Loss: 0.3174, Validation Accuracy: 33.34%
+Epoch 19/20, Validation Loss: 0.3269, Validation Accuracy: 31.52%
+Epoch 20/20, Validation Loss: 0.3440, Validation Accuracy: 31.94%
+Results of resnet50:
+Test Loss: 0.0702, Test Accuracy: 61.78%
+Precision: 0.56, Recall: 0.62, F1 Score: 0.58
+              precision    recall  f1-score   support
+
+           0       0.47      0.39      0.42      4100
+           1       0.88      0.99      0.93      3100
+           2       0.60      0.75      0.67      3099
+           3       0.14      0.07      0.10      3099
+           4       0.73      0.96      0.82      3100
+
+    accuracy                           0.62     16498
+   macro avg       0.56      0.63      0.59     16498
+weighted avg       0.56      0.62      0.58     16498
+
+Avg Inference Time: 0.0294 seconds
+Using device: cuda
+Epoch 1/20, Validation Loss: 0.1465, Validation Accuracy: 44.81%
+Epoch 2/20, Validation Loss: 0.1004, Validation Accuracy: 49.74%
+Epoch 3/20, Validation Loss: 0.1501, Validation Accuracy: 49.08%
+Epoch 4/20, Validation Loss: 0.1329, Validation Accuracy: 50.72%
+Epoch 5/20, Validation Loss: 0.1320, Validation Accuracy: 48.72%
+Epoch 6/20, Validation Loss: 0.1689, Validation Accuracy: 46.48%
+Epoch 7/20, Validation Loss: 0.1724, Validation Accuracy: 47.84%
+Epoch 8/20, Validation Loss: 0.1734, Validation Accuracy: 45.67%
+Epoch 9/20, Validation Loss: 0.1669, Validation Accuracy: 44.67%
+Epoch 10/20, Validation Loss: 0.1762, Validation Accuracy: 46.82%
+Epoch 11/20, Validation Loss: 0.1564, Validation Accuracy: 46.98%
+Epoch 12/20, Validation Loss: 0.1711, Validation Accuracy: 45.83%
+Epoch 13/20, Validation Loss: 0.1696, Validation Accuracy: 46.74%
+Epoch 14/20, Validation Loss: 0.1428, Validation Accuracy: 46.55%
+Epoch 15/20, Validation Loss: 0.1613, Validation Accuracy: 44.92%
+Epoch 16/20, Validation Loss: 0.1587, Validation Accuracy: 46.09%
+Epoch 17/20, Validation Loss: 0.1541, Validation Accuracy: 48.07%
+Epoch 18/20, Validation Loss: 0.1626, Validation Accuracy: 46.48%
+Epoch 19/20, Validation Loss: 0.1809, Validation Accuracy: 43.58%
+Epoch 20/20, Validation Loss: 0.1628, Validation Accuracy: 45.51%
+Results of mobilenet_v2:
+Test Loss: 0.0497, Test Accuracy: 75.02%
+Precision: 0.79, Recall: 0.75, F1 Score: 0.74
+              precision    recall  f1-score   support
+
+           0       0.74      0.65      0.69      4100
+           1       0.76      0.98      0.86      3100
+           2       0.57      0.86      0.69      3099
+           3       0.92      0.40      0.56      3099
+           4       0.95      0.89      0.92      3100
+
+    accuracy                           0.75     16498
+   macro avg       0.79      0.76      0.74     16498
+weighted avg       0.79      0.75      0.74     16498
+
+Avg Inference Time: 0.0144 seconds
+Using device: cuda
+Epoch 1/20, Validation Loss: 0.1276, Validation Accuracy: 28.15%
+Epoch 2/20, Validation Loss: 0.1012, Validation Accuracy: 31.23%
+Epoch 3/20, Validation Loss: 0.1656, Validation Accuracy: 27.75%
+Epoch 4/20, Validation Loss: 0.2071, Validation Accuracy: 20.39%
+Epoch 5/20, Validation Loss: 0.2530, Validation Accuracy: 20.40%
+Epoch 6/20, Validation Loss: 0.3133, Validation Accuracy: 19.30%
+Epoch 7/20, Validation Loss: 0.2945, Validation Accuracy: 20.44%
+Epoch 8/20, Validation Loss: 0.2978, Validation Accuracy: 20.74%
+Epoch 9/20, Validation Loss: 0.3077, Validation Accuracy: 20.84%
+Epoch 10/20, Validation Loss: 0.3096, Validation Accuracy: 20.89%
+Epoch 11/20, Validation Loss: 0.3139, Validation Accuracy: 20.87%
+Epoch 12/20, Validation Loss: 0.3159, Validation Accuracy: 21.04%
+Epoch 13/20, Validation Loss: 0.3162, Validation Accuracy: 21.01%
+Epoch 14/20, Validation Loss: 0.3163, Validation Accuracy: 21.06%
+Epoch 15/20, Validation Loss: 0.3168, Validation Accuracy: 21.06%
+Epoch 16/20, Validation Loss: 0.3169, Validation Accuracy: 21.06%
+Epoch 17/20, Validation Loss: 0.3169, Validation Accuracy: 21.05%
+Epoch 18/20, Validation Loss: 0.3169, Validation Accuracy: 21.05%
+Epoch 19/20, Validation Loss: 0.3170, Validation Accuracy: 21.05%
+Epoch 20/20, Validation Loss: 0.3170, Validation Accuracy: 21.05%
+Results of vgg16:
+Test Loss: 0.3070, Test Accuracy: 20.51%
+Precision: 0.25, Recall: 0.21, F1 Score: 0.21
+              precision    recall  f1-score   support
+
+           0       0.27      0.22      0.24      4100
+           1       0.16      0.25      0.20      3100
+           2       0.10      0.16      0.12      3099
+           3       0.30      0.15      0.20      3099
+           4       0.39      0.24      0.30      3100
+
+    accuracy                           0.21     16498
+   macro avg       0.25      0.20      0.21     16498
+weighted avg       0.25      0.21      0.21     16498
+
+Avg Inference Time: 0.0446 seconds
+Using device: cuda
+Epoch 1/20, Validation Loss: 0.0841, Validation Accuracy: 39.56%
+Epoch 2/20, Validation Loss: 0.4344, Validation Accuracy: 30.72%
+Epoch 3/20, Validation Loss: 0.0749, Validation Accuracy: 57.45%
+Epoch 4/20, Validation Loss: 0.0831, Validation Accuracy: 53.18%
+Epoch 5/20, Validation Loss: 0.0921, Validation Accuracy: 50.62%
+Epoch 6/20, Validation Loss: 0.1073, Validation Accuracy: 45.44%
+Epoch 7/20, Validation Loss: 0.1164, Validation Accuracy: 43.70%
+Epoch 8/20, Validation Loss: 0.1113, Validation Accuracy: 45.15%
+Epoch 9/20, Validation Loss: 0.1139, Validation Accuracy: 43.09%
+Epoch 10/20, Validation Loss: 0.1240, Validation Accuracy: 42.42%
+Epoch 11/20, Validation Loss: 0.1270, Validation Accuracy: 42.14%
+Epoch 12/20, Validation Loss: 0.1159, Validation Accuracy: 42.35%
+Epoch 13/20, Validation Loss: 0.1339, Validation Accuracy: 41.80%
+Epoch 14/20, Validation Loss: 0.1187, Validation Accuracy: 42.74%
+Epoch 15/20, Validation Loss: 0.1337, Validation Accuracy: 40.92%
+Epoch 16/20, Validation Loss: 0.1017, Validation Accuracy: 47.05%
+Epoch 17/20, Validation Loss: 0.1297, Validation Accuracy: 41.58%
+Epoch 18/20, Validation Loss: 0.1195, Validation Accuracy: 45.10%
+Epoch 19/20, Validation Loss: 0.1251, Validation Accuracy: 42.06%
+Epoch 20/20, Validation Loss: 0.1236, Validation Accuracy: 42.06%
+Results of densenet121:
+Test Loss: 0.0581, Test Accuracy: 74.54%
+Precision: 0.74, Recall: 0.75, F1 Score: 0.72
+              precision    recall  f1-score   support
+
+           0       0.64      0.61      0.63      4100
+           1       0.93      0.98      0.96      3100
+           2       0.61      0.96      0.74      3099
+           3       0.59      0.25      0.36      3099
+           4       0.96      0.97      0.96      3100
+
+    accuracy                           0.75     16498
+   macro avg       0.75      0.75      0.73     16498
+weighted avg       0.74      0.75      0.72     16498
+
+Avg Inference Time: 0.0356 seconds

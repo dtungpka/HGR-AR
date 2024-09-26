@@ -1,0 +1,88 @@
+[W 03:48:44.096 NotebookApp] Error loading server extension jupyter_nbextensions_configurator
+    Traceback (most recent call last):
+      File "/opt/hpc/anaconda3/envs/jupyterhub/lib/python3.9/site-packages/notebook/notebookapp.py", line 2047, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/opt/hpc/anaconda3/envs/jupyterhub/lib/python3.9/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named 'jupyter_nbextensions_configurator'
+[W 03:48:44.552 NotebookApp] Loading JupyterLab as a classic notebook (v6) extension.
+[W 2024-09-20 03:48:44.554 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-09-20 03:48:44.554 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-09-20 03:48:44.554 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-09-20 03:48:44.558 LabApp] JupyterLab extension loaded from /opt/hpc/anaconda3/envs/jupyterhub/lib/python3.9/site-packages/jupyterlab
+[I 2024-09-20 03:48:44.558 LabApp] JupyterLab application directory is /opt/hpc/anaconda3/envs/jupyterhub/share/jupyter/lab
+[I 03:48:44.562 NotebookApp] Serving notebooks from local directory: /work/21010294/HandGesture
+[I 03:48:44.562 NotebookApp] Jupyter Notebook 6.5.4 is running at:
+[I 03:48:44.562 NotebookApp] http://localhost:8880/?token=e3e835ab138455476f0dddfecd30bdfa4f512de50135ea2a
+[I 03:48:44.562 NotebookApp]  or http://127.0.0.1:8880/?token=e3e835ab138455476f0dddfecd30bdfa4f512de50135ea2a
+[I 03:48:44.562 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 03:48:44.566 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/21010294/.local/share/jupyter/runtime/nbserver-292010-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8880/?token=e3e835ab138455476f0dddfecd30bdfa4f512de50135ea2a
+     or http://127.0.0.1:8880/?token=e3e835ab138455476f0dddfecd30bdfa4f512de50135ea2a
+[I 03:49:28.673 NotebookApp] 302 GET / (::1) 0.550000ms
+[I 03:49:28.860 NotebookApp] 302 GET /tree? (::1) 0.710000ms
+[I 03:49:30.937 NotebookApp] 302 GET / (::1) 0.260000ms
+[I 03:49:31.059 NotebookApp] 302 GET /tree? (::1) 0.340000ms
+[I 03:49:39.089 NotebookApp] 302 GET / (::1) 0.250000ms
+[I 03:49:39.215 NotebookApp] 302 GET /tree? (::1) 0.340000ms
+[I 03:49:39.598 NotebookApp] Kernel started: d8df9c70-9c7e-401e-b4ec-1287af8f2196, name: vsrenv
+[I 03:49:40.498 NotebookApp] 302 GET / (::1) 2.010000ms
+[I 03:49:40.498 NotebookApp] 302 GET / (::1) 2.070000ms
+[I 03:49:40.667 NotebookApp] 302 GET /tree? (::1) 1.410000ms
+[I 03:49:40.667 NotebookApp] 302 GET /tree? (::1) 1.410000ms
+[W 03:49:40.946 NotebookApp] Forbidden
+[W 03:49:40.947 NotebookApp] 403 GET /api/kernelspecs?1726778966189 (::1) 0.690000ms referer=None
+[W 03:49:40.947 NotebookApp] Forbidden
+[W 03:49:40.947 NotebookApp] 403 GET /api/kernelspecs?1726778966183 (::1) 0.900000ms referer=None
+[W 03:49:40.959 NotebookApp] Forbidden
+[W 03:49:40.959 NotebookApp] 403 GET /api/kernels?1726778966183 (::1) 0.480000ms referer=None
+[W 03:49:40.960 NotebookApp] Forbidden
+[W 03:49:40.960 NotebookApp] 403 GET /api/kernels?1726778966184 (::1) 0.590000ms referer=None
+[W 03:49:40.960 NotebookApp] Forbidden
+[W 03:49:40.960 NotebookApp] 403 GET /api/sessions?1726778966185 (::1) 0.730000ms referer=None
+[W 03:49:40.963 NotebookApp] Forbidden
+[W 03:49:40.963 NotebookApp] 403 GET /api/kernels?1726778966189 (::1) 0.450000ms referer=None
+[W 03:49:40.964 NotebookApp] Forbidden
+[W 03:49:40.964 NotebookApp] 403 GET /api/kernels?1726778966192 (::1) 0.590000ms referer=None
+[W 03:49:40.964 NotebookApp] Forbidden
+[W 03:49:40.964 NotebookApp] 403 GET /api/sessions?1726778966194 (::1) 0.740000ms referer=None
+[W 03:49:40.990 NotebookApp] Forbidden
+[W 03:49:40.990 NotebookApp] 403 GET /api/kernelspecs?1726778966223 (::1) 0.610000ms referer=None
+[W 03:49:40.991 NotebookApp] Forbidden
+[W 03:49:40.991 NotebookApp] 403 GET /api/kernelspecs?1726778966224 (::1) 0.750000ms referer=None
+[I 03:49:41.005 NotebookApp] 302 GET / (::1) 0.220000ms
+[I 03:49:41.008 NotebookApp] 302 GET / (::1) 0.220000ms
+[I 03:49:41.082 NotebookApp] 302 GET /tree? (::1) 0.430000ms
+[I 03:49:41.082 NotebookApp] 302 GET /tree? (::1) 0.480000ms
+[W 03:49:41.238 NotebookApp] Forbidden
+[W 03:49:41.238 NotebookApp] 403 GET /api/kernelspecs?1726778966494 (::1) 0.460000ms referer=None
+[W 03:49:41.258 NotebookApp] Forbidden
+[W 03:49:41.258 NotebookApp] 403 GET /api/kernels?1726778966495 (::1) 0.740000ms referer=None
+[W 03:49:41.258 NotebookApp] Forbidden
+[W 03:49:41.258 NotebookApp] 403 GET /api/kernels?1726778966496 (::1) 0.900000ms referer=None
+[W 03:49:41.258 NotebookApp] Forbidden
+[W 03:49:41.259 NotebookApp] 403 GET /api/kernelspecs?1726778966513 (::1) 1.070000ms referer=None
+[W 03:49:41.264 NotebookApp] Forbidden
+[W 03:49:41.265 NotebookApp] 403 GET /api/sessions?1726778966497 (::1) 0.400000ms referer=None
+[W 03:49:41.275 NotebookApp] Forbidden
+[W 03:49:41.275 NotebookApp] 403 GET /api/sessions?1726778966516 (::1) 0.440000ms referer=None
+[W 03:49:41.276 NotebookApp] Forbidden
+[W 03:49:41.276 NotebookApp] 403 GET /api/kernels?1726778966514 (::1) 0.590000ms referer=None
+[W 03:49:41.276 NotebookApp] Forbidden
+[W 03:49:41.276 NotebookApp] 403 GET /api/kernels?1726778966515 (::1) 0.700000ms referer=None
+[W 03:49:41.279 NotebookApp] Forbidden
+[W 03:49:41.280 NotebookApp] 403 GET /api/kernelspecs?1726778966519 (::1) 0.420000ms referer=None
+[W 03:49:41.301 NotebookApp] Forbidden
+[W 03:49:41.301 NotebookApp] 403 GET /api/kernelspecs?1726778966535 (::1) 0.420000ms referer=None
+[I 03:51:27.304 NotebookApp] Kernel interrupted: d8df9c70-9c7e-401e-b4ec-1287af8f2196
+[I 03:53:23.040 NotebookApp] Kernel interrupted: d8df9c70-9c7e-401e-b4ec-1287af8f2196
+[I 04:18:54.560 NotebookApp] Kernel interrupted: d8df9c70-9c7e-401e-b4ec-1287af8f2196
+[I 04:39:39.690 NotebookApp] Starting buffering for d8df9c70-9c7e-401e-b4ec-1287af8f2196:72f933ad-fc5b-4a14-adab-f44174959b82
+slurmstepd: error: *** JOB 35621 ON hpc23 CANCELLED AT 2024-09-20T04:39:55 ***

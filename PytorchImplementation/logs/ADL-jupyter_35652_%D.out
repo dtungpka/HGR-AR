@@ -1,0 +1,13 @@
+Currently Loaded Modulefiles:
+ 1) cuda/11.5.2(default)   2) python/jupyterhub  
+
+Key:
+(symbolic-version)  
+['', '/opt/hpc/anaconda3/envs/jupyterhub/lib/python39.zip', '/opt/hpc/anaconda3/envs/jupyterhub/lib/python3.9', '/opt/hpc/anaconda3/envs/jupyterhub/lib/python3.9/lib-dynload', '/home/21010294/VSR/VSREnv/lib/python3.9/site-packages', '/home/21010294/VSR/Packages/mmediting', '/home/21010294/VSR/Repositories/mmediting']
+/home/21010294/VSR/VSREnv/bin/python
+Python 3.9.16
+1.12.1+cu113
+11.3
+Cuda available, version: 8302
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+             35652       gpu ADL-jupy 21010294  R       0:03      1 hpc23
